@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some information about who we are and what we do.</p>
+
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="LOKESH.jpeg" alt="LOKESH" style="width: 100%"  >
+      <div class="container">
+        <h2>LOKESH KHADSE</h2>
+        <p class="title">  WEB DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
+        <p> <a href="mailto:lokeshkhadse19@gmail.com"> lokeshkhadse19@gmail.com</a></p>
+        <a href="http://instagram.com/lokesh_rajendra_khadse"><p><button class="button">INSTAGRAM</button></p></a>
+        <a href="https://www.linkedin.com/in/lokesh-khadse-a60159226"><p><button class="button">lINKEDIN</button></p></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="SWARAJ.jpg" alt="SWARAJ" style="width:100%">
+      <div class="container">
+        <h2>SWARAJ KAKADE</h2>
+        <p class="title"> WEB DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
+        <p>swakakade3@gmail.com</p>
+        <a href="http://Instagram.com/swaraj_39"> <p><button class="button">INSTAGRAM</button></p></a>
+        <a href="https://www.linkedin.com/in/swaraj-kakade-687991239"><p><button class="button">lINKEDIN</button></p></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="RUTUJA 3.jpg" alt="RUTUJA" style="width:100%">
+      <div class="container">
+        <h2>RUTUJA HUNDEKARI</h2>
+        <p class="title"> WEB DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
+        <p>rutujahundekari@gmail.com</p>
+        <a href="https://instagram.com/_amber.glow?igshid=YmMyMTA2M2Y="> <p><button class="button">INSTAGRAM</button></p></a>
+        <a href="https://www.linkedin.com/in/rutuja-hundekari-429181225"><p> <p><button class="button">lINKEDIN</button></p></a>
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="NEHA.jpg" alt="NEHA" style="width:100%">
+      <div class="container">
+        <h2>NEHA KASHID</h2>
+        <p class="title"> WEB DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
+        <p>kashidneha6@gmail.com</p>
+        <a href="https://instagram.com/nehaa__642?igshid=YmMyMTA2M2Y=">  <p><button class="button">INSTAGRAM</button></p></a>
+        <a href="https://www.linkedin.com/in/neha-kashid-a154b2228"> <p><button class="button">lINKEDIN</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="column">
+    <div class="card">
+      <img src="JEEVAN.jpg" alt="JEEVAN" style="width:100%">
+      <div class="container">
+        <h2>ADITYA JADHAV</h2>
+        <p class="title"> WEB DEVELOPER</p>
+        <p>FRONTEND DEVELOPER</p>
+        <p>adityajadhav7779@gmail.com</p>
+        <a href="https://instagram.com/_jeevan_jadhav_96k?igshid=YmMyMTA2M2Y=">   <p><button class="button">INSTAGRAM</button></p></a>
+        <a href="https://instagram.com/_jeevan_jadhav_96k?igshid=YmMyMTA2M2Y="> <p><button class="button">lINKEDIN</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
